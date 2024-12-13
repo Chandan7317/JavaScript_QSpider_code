@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="webpageLoad()">
+
+    <h1>Welcome to Dom Event</h1>
+    <!-- Dom Event -->
+    <!-- onclick -->
+    <button onclick="clickfun()">Single clicked</button>
+
+    <!-- ondblclick -->
+    <button ondblclick="clickdbl()">double clicked</button>
+
+    <!-- onmouseenter ,onmouseleave-->
+    <button onmouseenter="enter()" onmouseleave="leave()">mouse entered</button>
+
+    <!--onmousemove  -->
+    <section onmousemove="move()">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, porro odit dolorem
+        quidem eveniet dolore quia quis ab, corrupti reprehenderit est autem fuga deserunt. Aspernatur consequatur porro
+        provident tempora blanditiis!</section>
+    <!-- onkeydown,,,,,onkeyup -->
+    <input type="text" onkeydown="down()" onkeyup="up()">
+    <hr>
+    <!-- onchange -->
+    <input type="text" onchange="change()">
+    <br>
+    <input type="text">
+
+    <hr>
+
+    <form onsubmit="formData(event)">
+        <input type="text" placeholder="email" id="email">
+        <br>
+        <input type="text" placeholder="password" id="password">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p style="height: 100px;width: 300px;background-color: aqua;overflow-y: scroll;" onscroll="paraScrool()">Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Illo omnis accusamus quibusdam est. Repellat aliquam nemo fugit
+        eos, ducimus omnis impedit corrupti inventore expedita mollitia recusandae necessitatibus ut eius corporis ipsum
+        adipisci iure iste aliquid dolorum minus ullam odio eligendi, laboriosam laborum! Ex fuga mollitia, voluptatum
+        ipsum ab qui illo ipsam magnam doloremque quas eligendi, dolores, accusantium dolore officia rerum quis
+        reiciendis sint. Reiciendis est nobis, quaerat voluptatem sit obcaecati, neque dolorum molestias, culpa officia
+        maxime facere repudiandae vero illo ex corrupti! Quisquam officiis quibusdam enim vel repellat, maxime quaerat
+        amet. Quos, ab magni fuga ad eaque velit mollitia sint labore minus? Rerum nam voluptatum culpa laboriosam sequi
+        vitae consectetur, modi doloremque maiores quo laudantium quis nihil excepturi libero ab iste at quod nobis non
+        explicabo ad? Veritatis, tempore quo a itaque incidunt eaque. Praesentium ipsa repudiandae molestiae dicta
+        quaerat quod. Non nobis et impedit nihil. Repellat minus eveniet laudantium consectetur, delectus porro harum.
+        Aliquid explicabo, suscipit possimus voluptas consectetur quo. Dolorum mollitia provident exercitationem,
+        architecto, non quo laborum asperiores reiciendis repudiandae odio libero. Ad cum officiis iure sed reiciendis
+        neque deleniti ea optio consequuntur fugiat sit in pariatur enim accusantium facilis nostrum, magnam maiores vel
+        aperiam est unde quia eaque. Maiores optio quod ratione enim asperiores aliquam expedita. Consectetur nihil
+        deserunt, esse dicta nostrum et nisi temporibus explicabo non impedit accusamus saepe, voluptas incidunt, quo
+        enim minus at vitae? Nam voluptatem iure culpa quos id illo similique soluta facere tenetur, eaque earum esse
+        pariatur, amet exercitationem doloribus aspernatur tempora quam commodi obcaecati quia. Perferendis omnis hic,
+        porro odit minima doloremque? Beatae cumque nesciunt perferendis veniam eaque ipsum voluptatem animi deserunt
+        et. Aliquid minus numquam labore, omnis vero eius enim magnam nostrum cum illum in, expedita error? Dignissimos,
+        recusandae soluta corrupti quae exercitationem vitae quis! Voluptatibus facilis ad tempora quisquam!</p>
+    <script src="./dom_event.js"></script>
+</body>
+
+</html>
